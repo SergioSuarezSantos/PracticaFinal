@@ -5,7 +5,7 @@
     </HEAD>
     <BODY>
     <?php
-if(isset($_GET['Acceder'])){
+if(isset($_GET['acceder'])){
     if(isset($_GET['Usuario'])){
         if($_GET['Usuario']=="administrador"){
             header('location: registro_aula.php');
@@ -13,9 +13,8 @@ if(isset($_GET['Acceder'])){
             header('location: reg curso.php');
         }
 }
-    
 }
-
+    
 ?>
         <form action="" method="get">
 			<p>Formulario de acceso</p>
