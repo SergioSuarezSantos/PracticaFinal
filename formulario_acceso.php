@@ -1,6 +1,16 @@
-
 <HTML>
     <HEAD>
+    <?php
+if(isset($_POST['Acceder'])){
+    if(isset($_POST['usuario'])){
+        if($_POST['usuario']=="administrador"){
+            header('location:registro_aula.php');
+        }else if($_POST['usuario']=='profesor'){
+            header('location:registro_aula.php');
+        }
+    }
+}
+?>
        <TITLE>grupo 3</TITLE>
     </HEAD>
     <BODY>
