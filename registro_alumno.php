@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <form action="index.html" method="get">
+        <form action="index.html" method="post">
             <table border="0" align="center">
                 <caption>Registro de alumnos</caption>
                 <tr>
@@ -43,7 +43,6 @@
                     </td>
                 </tr>
             </table>
-            
         </form>
     </body>
 </html>
