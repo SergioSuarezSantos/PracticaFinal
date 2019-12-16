@@ -11,10 +11,10 @@ if(isset($_GET['Acceder'])){
             header('location: registro_aula.php');
         }else if($_GET['Usuario']=='profesor'){
             header('location: reg curso.php');
-        }
+        }else{
     }
 }
-    else{
+    
     
 ?>
         <form action="" method="get">
