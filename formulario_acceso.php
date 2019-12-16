@@ -19,6 +19,7 @@ if(isset($_GET['acceder'])){
         <form action="" method="get">
 			<p>Formulario de acceso</p>
             <input type="text" placeholder="Usuario" name="Usuario"/>
+            <input type="password" name="contraseña" />
             <input type="submit" name="acceder" value="Acceder" />
         </form>
     </BODY>
