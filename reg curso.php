@@ -12,6 +12,15 @@
                 <input type="text" placeholder="Código Curso" name="codigo"/>
                 <input type="text" placeholder="Nombre" name="nombre"/>
                 <a href="./registro_aula.php">Página Aula</a>
+                <?php
+                $valoresarray=array("presencial", "a distancia" , "semipresencial");
+                ?>
+                <select name="genero">
+                    <?php foreach ($valoresarray as $val){ ?>
+                <option value="<?php echo $val?>"><?php echo $val?></option>
+                <?php
+                }
+                ?>
         </form>
     </BODY>
  </HTML>
