@@ -1,11 +1,11 @@
 <HTML>
     <HEAD>
     <?php
-if(isset($_POST['Acceder'])){
-    if(isset($_POST['usuario'])){
-        if($_POST['usuario']=="administrador"){
+if(isset($_GET['Acceder'])){
+    if(isset($_GET['usuario'])){
+        if($_GET['usuario']=="administrador"){
             header('location:registro_aula.php');
-        }else if($_POST['usuario']=='profesor'){
+        }else if($_GET['usuario']=='profesor'){
             header('location:reg curso.php');
         }
     }
@@ -16,7 +16,7 @@ if(isset($_POST['Acceder'])){
     <BODY>
     <?php
      ?>
-        <form method="POST">
+        <form action="" method="get">
 			<p>Formulario de acceso</p>
             <input type="text" placeholder="Usuario" name="usuario"/>
             <input type="password" placeholder="Clave" name="clave"/>
