@@ -14,7 +14,8 @@ if(isset($_GET['Acceder'])){
         }
 }
     
-    
+}
+
 ?>
         <form action="" method="get">
 			<p>Formulario de acceso</p>
@@ -23,6 +24,4 @@ if(isset($_GET['Acceder'])){
         </form>
     </BODY>
  </HTML>
- <?php
-    }
- ?>
+
