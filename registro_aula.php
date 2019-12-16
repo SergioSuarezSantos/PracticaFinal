@@ -3,6 +3,10 @@
         <title>Formulario de registro de aulas</title>
     </head>
     <body>
+        <?php
+            session_start();
+            echo "Has iniciado con el usuario" .$_SESSION['Usuario'];
+        ?>
         <form action="index.html">
             <p>
                 Nombre del aula:<br>
