@@ -3,6 +3,10 @@
        <TITLE>grupo 3</TITLE>
     </HEAD>
     <BODY>
+    <?php
+            session_start();
+            echo "Has iniciado con el usuario" .$_SESSION['Usuario'];
+        ?>
         <form action="index.html" method="get">
 			<p>Registro de curso</p>
                 <input type="text" placeholder="Código Curso" name="codigo"/>
