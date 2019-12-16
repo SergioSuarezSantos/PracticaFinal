@@ -16,7 +16,7 @@ if(isset($_POST['Acceder'])){
     <BODY>
     <?php
      ?>
-        <form action="#" method="POST">
+        <form method="POST">
 			<p>Formulario de acceso</p>
             <input type="text" placeholder="Usuario" name="usuario"/>
             <input type="password" placeholder="Clave" name="clave"/>
