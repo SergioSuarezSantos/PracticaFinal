@@ -2,11 +2,11 @@
     <HEAD>
     <?php
 if(isset($_GET['Acceder'])){
-    if(isset($_GET['usuario'])){
-        if($_GET['usuario']=="administrador"){
-            header('location:registro_aula.php');
-        }else if($_GET['usuario']=='profesor'){
-            header('location:reg curso.php');
+    if(isset($_GET['Usuario'])){
+        if($_GET['Usuario']=="administrador"){
+            header('location: registro_aula.php');
+        }else if($_GET['Usuario']=='profesor'){
+            header('location: reg curso.php');
         }
     }
 }
