@@ -11,12 +11,12 @@
             <table >
                 <tr>
                     <td>
-                        <input tupe="text" placeholder="Usuario" name="Usuario"/>
-                        <p><input type="button" value="Acceder" /></p>
+                        <input tupe="text" placeholder="Usuario" name="usuario"/>
+                        <p><input type="button" value="acceder" /></p>
                     </td>
                 
                     <td>
-                           <br /> <p><input type="submit" value="Registrar" /></p>
+                           <br /> <p><input type="submit" name="boton" value="Registrar" /></p>
                     </td>
                 </tr>
             </table>
