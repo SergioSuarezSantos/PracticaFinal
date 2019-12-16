@@ -5,7 +5,7 @@
     <BODY>
     <?php
             session_start();
-            echo "Has iniciado con el usuario" .$_SESSION['Usuario1'];
+            echo $_SESSION['Usuario1'];
         ?>
         <form action="index.html" method="get">
 			<p>Registro de curso</p>
