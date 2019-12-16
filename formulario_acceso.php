@@ -6,7 +6,7 @@ if(isset($_POST['Acceder'])){
         if($_POST['usuario']=="administrador"){
             header('location:registro_aula.php');
         }else if($_POST['usuario']=='profesor'){
-            header('location:registro_aula.php');
+            header('location:reg curso.php');
         }
     }
 }
