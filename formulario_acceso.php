@@ -7,9 +7,11 @@ if(isset($_GET['Acceder'])){
             header('location: registro_aula.php');
         }else if($_GET['Usuario']=='profesor'){
             header('location: reg curso.php');
-        }else{
+        }
     }
-    }
+}
+    else{
+    
 ?>
        <TITLE>grupo 3</TITLE>
     </HEAD>
