@@ -7,7 +7,7 @@
     <?php
     session_start();
 if(isset($_GET['acceder'])){
-    $_SESSION['Usuario']==$_GET['Usuario'];
+    $_SESSION['Usuario1']==$_GET['Usuario'];
     if(isset($_GET['Usuario'])){
         if($_GET['Usuario']=="administrador"){
             header('location: registro_aula.php');
